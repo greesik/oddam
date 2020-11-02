@@ -1,13 +1,18 @@
 import React from 'react';
 import HomeHeader from "./HomeHeader";
-import HomeThreeColumns from "./HomeThreeColumns";
+import "../scss/Home.scss";
+import Statistics from "./Statistics";
+import HomeMain from "./HomeMain";
 
 const Home = () => {
     return (
-        <>
-            <HomeHeader/>
-            <HomeThreeColumns/>
-        </>
+        <section className={"home"}>
+            <div className="home-screen">
+                <HomeHeader/>
+                <HomeMain/>
+            </div>
+            <Statistics/>
+        </section>
     );
 };
 

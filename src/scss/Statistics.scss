@@ -1,0 +1,31 @@
+.statistics {
+  height: 380px;
+  background: url("../assets/img/3 Columns Background.png") no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 330px;
+    text-align: center;
+
+    .column-number {
+      font-size: 90px;
+    }
+
+    .column-title {
+      font-size: 18px;
+    }
+
+    .column-description {
+      font-size: 16px;
+    }
+
+  }
+
+}

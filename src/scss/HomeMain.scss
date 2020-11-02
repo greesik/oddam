@@ -1,0 +1,42 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  //z-index: 2;
+  margin-right: 275px;
+
+  .title {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .tribal {
+    background: url("../assets/img/Decoration.svg");
+    height: 33px;
+    width: 253px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .home-main-buttons {
+    display: flex;
+
+    .home-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 0 50px;
+      border: 0.75px solid black;
+      margin: 5px;
+      width: 310px;
+      height: 120px;
+      font-size: 36px;
+    }
+
+  }
+
+}
