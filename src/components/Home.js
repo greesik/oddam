@@ -3,6 +3,7 @@ import HomeHeader from "./HomeHeader";
 import "../scss/Home.scss";
 import Statistics from "./Statistics";
 import HomeMain from "./HomeMain";
+import FourSteps from "./FourSteps";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <HomeMain/>
             </div>
             <Statistics/>
+            <FourSteps/>
         </section>
     );
 };
