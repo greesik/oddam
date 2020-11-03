@@ -1,5 +1,6 @@
 .four-steps {
   height: 100vh;
+  width: 100%;
 
   .four-header {
     height: 25vh;
@@ -31,13 +32,89 @@
     .four-main-container {
       height: 100%;
       width: 70%;
-      background: lightcoral;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .four-element {
+        width: 130px;
+        height: 190px;
+        //background: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .four-element-icon {
+          width: 80px;
+          height: 80px;
+          background: url("../assets/img/Icon.png") no-repeat;
+          background-size: contain;
+        }
+
+        .four-element-icon-2 {
+          background: url("../assets/img/Icon2.png") no-repeat;
+          background-size: contain;
+        }
+
+        .four-element-icon-3 {
+          background: url("../assets/img/Icon3.png") no-repeat;
+          background-size: contain;
+        }
+
+        .four-element-icon-4 {
+          background: url("../assets/img/Icon4.png") no-repeat;
+          background-size: contain;
+        }
+
+        .four-element-title {
+          text-align: center;
+          font-size: 18px;
+          position: relative;
+          bottom: 10px;
+        }
+
+        .four-element-title::before {
+          content: "";
+          position: absolute;
+          height: 2px;
+          width: 80px;
+          background: black;
+          bottom: -20px;
+        }
+
+        .four-element-description {
+          text-align: center;
+          font-size: 16px;
+        }
+
+      }
+
     }
 
   }
 
   .four-footer {
     height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .four-footer-button {
+      padding: 0 50px;
+      border: 0.75px solid black;
+      margin: 5px;
+      width: 310px;
+      height: 120px;
+      font-size: 36px;
+      background: none;
+      outline: none;
+    }
+
+    .four-footer-button:hover {
+      cursor: pointer;
+    }
+
   }
 
 }

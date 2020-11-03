@@ -1,0 +1,38 @@
+.contact {
+    height: 100vh;
+    background: url('../assets/img/Background-Contact-Form.jpg') no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    opacity: 0.4;
+
+    .contact-form-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .contact-form-title{
+
+        }
+
+        .contact-form-tribal {
+
+        }
+
+        .contact-form {
+
+            .contact-form-inline-input-wrapper {
+                display: flex;
+            }
+
+            .contact-form-input-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+
+    }
+
+}

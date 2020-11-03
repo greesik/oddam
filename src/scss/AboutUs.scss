@@ -1,0 +1,53 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #F0F1F1;
+
+    .about-us-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 600px;
+        width: 50%;
+
+        .about-us-title {
+            font-size: 38px;
+        }
+
+        .about-us-tribal {
+            background: url("../assets/img/Decoration.svg") no-repeat;
+            height: 33px;
+            width: 253px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .about-us-description {
+            display: flex;
+            flex-wrap: wrap;
+            width: 500px;
+            font-size: 30px;
+        }
+        
+        .about-us-autograph {
+            height: 150px;
+            width: 500px;
+            background: url('../assets/img/Signature.svg') no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
+
+    }
+
+    .about-us-photo {
+        height: 100%;
+        width: 50%;
+        background: url('../assets/img/People@2x.png') no-repeat;
+        background-size: cover;
+    }
+
+}

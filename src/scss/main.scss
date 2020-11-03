@@ -4,4 +4,10 @@
 
 body {
   font-family: $font-base;
+
+  ::-webkit-scrollbar {
+    display: none;
 }
+
+}
+
