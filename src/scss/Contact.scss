@@ -1,4 +1,4 @@
-@import "settings/_fonts.scss";
+@import "./settings/_fonts.scss";
 
 .contact {
     height: 100vh;
@@ -50,6 +50,7 @@
                     background: none;
                     border: none;
                     border-bottom: 1px solid black;
+                    outline: none;
                 }
 
             }
@@ -69,6 +70,7 @@
                     background: none;
                     border: none;
                     border-bottom: 1px solid black;
+                    outline: none;
                 }
 
             }

@@ -1,3 +1,5 @@
+@import "./settings/_fonts.scss";
+
 .who-help {
     height: 100vh;
     display: flex;
@@ -50,7 +52,56 @@
     .who-help-list {
         height: 350px;
         width: 1100px;
-        border: 1px solid black;
+        // border: 1px solid black;
+
+        ul {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .who-help-option {
+                display: flex;
+                height: 50%;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+                border-bottom: 1px solid black;
+
+                .option-details {
+
+                    .option-name {
+                        font-family: $font-alt;
+                        font-size: 26px;
+                        font-weight: 300;
+                        color: #3C3C3C;
+                    }
+    
+                    .option-info {
+                        font-family: $font-alt;
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #3C3C3C;
+                    }
+
+                }
+
+                .option-tags {
+                    font-family: $font-alt;
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #3C3C3C;
+                }
+
+            }
+
+            .who-help-option:last-child {
+                border-bottom: none;
+            }
+
+        }
+
     }
 
     .who-help-pagination {
